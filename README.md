@@ -54,7 +54,7 @@ This project implements a basic file transfer and validation system using a Merk
    - The server checks if the file exists, generates a hash value using the Merkle Tree, and sends the hash value, file format, and content to the client.
    - The client validates the received data integrity using the Merkle Tree and prints the status.
 
-## Dependencies 
+## Dependencies 🤝
 
    - The system uses the `cryptography` library for Fernet encryption and `hashlib` for hashing.   
 
